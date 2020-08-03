@@ -18,5 +18,5 @@ do
     fi
 done
 git commit -m "$2" 
-docker build . -t shaharkl/simple_pipeline:"$3"  
+echo docker build . -t shaharkl/simple_pipeline:"$3"  
 docker push shaharkl/simple_pipeline:"$3"
